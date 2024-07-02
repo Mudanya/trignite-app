@@ -5,8 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Triginte",
+  title: "Triginite",
   description: "Tech Re-Ignited",
+  icons: { icon: "/trignite.png" },
 };
 
 export default function RootLayout({

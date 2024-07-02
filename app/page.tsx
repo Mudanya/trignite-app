@@ -4,9 +4,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-screen h-screen flex justify-center items-center">
-      {/* Todo just placeholder */}
-      <Hero />
+    <main className="w-screen text-[#1048a0]">
+      <div className="h-screen">
+        <Hero />
+      </div>
     </main>
   );
 }
