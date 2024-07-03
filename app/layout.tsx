@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Triginite",
-  description: "Tech Re-Ignited",
+  title: "Trignite",
+  description: "Trignite tech",
   icons: { icon: "/trignite.png" },
 };
 
