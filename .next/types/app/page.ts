@@ -1,4 +1,4 @@
-// File: /home/bentola/Prog/trignite-app/app/page.tsx
+// File: D:\SquareDev\trignite-app\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
