@@ -28,7 +28,7 @@ export default function ContactUs() {
 
   return (
     <>
-      <div className="mt-8 mb-6 ml-3 mr-3 p-2 flex  justify-center items-center h-64 font-bold text-5xl rounded-md bg-gray-100">
+      <div id="contactus" className="mt-8 mb-6 ml-3 mr-3 p-2 flex  justify-center items-center h-64 font-bold text-5xl rounded-md ">
         Contact Us
       </div>
 
@@ -64,10 +64,10 @@ export default function ContactUs() {
           className="w-full p-5 mt-4 border-0 border-gray-100 rounded-2xl"
         >
           <div className="w-full flex flex-col md:flex-row gap-4 mb-4">
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-1/2 ">
               <input
                 {...register("name")}
-                className="w-full bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-gray-200 rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
+                className="w-full bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-white rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
                 type="text"
                 id="name"
                 placeholder="Enter your name"
@@ -79,7 +79,7 @@ export default function ContactUs() {
             <div className="w-full md:w-1/2">
               <input
                 {...register("email")}
-                className="w-full border-0 bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-gray-200 rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
+                className="w-full border-0 bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-white rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
                 type="text"
                 id="email"
                 placeholder="Enter your email"
@@ -93,7 +93,7 @@ export default function ContactUs() {
             <div className="w-full md:w-1/2">
               <input
                 {...register("phoneNumber")}
-                className="w-full border-0 bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-gray-200 rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
+                className="w-full border-0 bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-white rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
                 type="text"
                 id="phoneNumber"
                 placeholder="Enter your number"
@@ -105,7 +105,7 @@ export default function ContactUs() {
             <div className="w-full md:w-1/2">
               <input
                 {...register("subject")}
-                className="w-full border-0 bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-gray-200 rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
+                className="w-full border-0 bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-white rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
                 type="text"
                 id="subject"
                 placeholder="Subject"
@@ -118,7 +118,7 @@ export default function ContactUs() {
           <div className="w-full flex flex-col md:flex-row gap-4 mt-5 h-36">
             <textarea
               {...register("message")}
-              className="w-full bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-gray-200 rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
+              className="w-full bg-transparent py-3 pl-3 sm:text-sm sm:leading-6 bg-white rounded-md ring-1 ring-gray-300 focus:ring-gray-500"
               type="text"
               id="message"
               placeholder="Enter your message"
