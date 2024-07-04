@@ -33,7 +33,7 @@ export default function ContactUs() {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full mt-8 mb-10 px-8 lg:px-24">
-        <div className="text-black font-bold py-4 md:py-14 lg:m-4 border-2 rounded-2xl flex flex-col justify-center items-center border-gray-200 px-2 hover:shadow-[0_5px_5px_rgba(0,0,0,0.2)]">
+        <div className="text-black bg-white font-bold py-4 md:py-14 lg:m-4 border-2 rounded-2xl flex flex-col justify-center items-center border-gray-200 px-2 hover:shadow-[0_5px_5px_rgba(0,0,0,0.2)]">
           <span className="text-2xl mb-2">
             <FaMapMarkerAlt />
           </span>
@@ -42,14 +42,14 @@ export default function ContactUs() {
             12345 Fedha, Nairobi - Kenya
           </span>
         </div>
-        <div className="text-black font-bold py-4 md:py-14 lg:m-4 border-2 rounded-2xl flex flex-col justify-center items-center border-gray-200 px-2 hover:shadow-[0_5px_5px_rgba(0,0,0,0.2)]">
+        <div className="text-black bg-white font-bold py-4 md:py-14 lg:m-4 border-2 rounded-2xl flex flex-col justify-center items-center border-gray-200 px-2 hover:shadow-[0_5px_5px_rgba(0,0,0,0.2)]">
           <span className="text-2xl mb-2">
             <FaPhoneAlt />
           </span>
           <div className="text-2xl">Contact Us</div>
           <span className="flex justify-center font-normal">0701000000</span>
         </div>
-        <div className="text-black font-bold py-4 md:py-14 lg:m-4 border-2 rounded-2xl flex flex-col justify-center items-center border-gray-200 px-2 hover:shadow-[0_5px_5px_rgba(0,0,0,0.2)]">
+        <div className="text-black bg-white font-bold py-4 md:py-14 lg:m-4 border-2 rounded-2xl flex flex-col justify-center items-center border-gray-200 px-2 hover:shadow-[0_5px_5px_rgba(0,0,0,0.2)]">
           <span className="text-2xl mb-2">
             <FaEnvelope />
           </span>
@@ -128,7 +128,7 @@ export default function ContactUs() {
             )}
           </div>
           <div className="w-full mt-5 flex justify-center">
-            <button className="w-full sm:w-auto md:w-1/3  px-4 py-3 text-white bg-sky-600 rounded-md ">
+            <button className="w-full sm:w-auto md:w-1/3  px-4 py-3 text-white font-semibold bg-[#1048a0]/[0.7] rounded-md ">
               Send Message
             </button>
           </div>
