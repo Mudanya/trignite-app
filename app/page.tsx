@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import ContactUs from "@/components/ui/contactUs";
+import Footer from "@/components/ui/footer";
 import GridBackground from "@/components/ui/GridBackground";
 import Image from "next/image";
 
@@ -10,6 +11,7 @@ export default function Home() {
         <Hero />
       </div>
       <ContactUs/>
+      <Footer/>
     </main>
   );
 }
