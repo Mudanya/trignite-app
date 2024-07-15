@@ -17,9 +17,9 @@ export default function Footer() {
         <h4 className="text-2xl font-semibold mb-4">Follow us</h4>
         <ul className="flex space-x-2">
           <li><SocialIcon style={{ height: 35, width: 35}} url="https://twitter.com" target='_blank'/></li>
-          <li><SocialIcon style={{ height: 35, width: 35 }} url="https://linkedin.com"/></li>
-          <li><SocialIcon style={{ height: 35, width: 35 }} url="https://facebook.com"/></li>
-          <li><SocialIcon style={{ height: 35, width: 35 }} url="https://instagram.com"/></li>
+          <li><SocialIcon style={{ height: 35, width: 35 }} url="https://linkedin.com" target='_blank'/></li>
+          <li><SocialIcon style={{ height: 35, width: 35 }} url="https://facebook.com" target='_blank' /></li>
+          <li><SocialIcon style={{ height: 35, width: 35 }} url="https://instagram.com" target='_blank' /></li>
         </ul>
       </div>
     </div>
