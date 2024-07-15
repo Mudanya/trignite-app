@@ -8,18 +8,18 @@ export default function Footer() {
         <h4 className="text-2xl font-semibold mb-4">Navigation</h4>
         <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
           <li><a href="#" className="text-lg text-white hover:underline">Home</a><span className="hidden md:inline"> |</span></li>
-          <li><a href="#" className="text-lg text-white hover:underline">About</a><span className="hidden md:inline"> |</span></li>
           <li><a href="#" className="text-lg text-white hover:underline">Services</a><span className="hidden md:inline"> |</span></li>
+          <li><a href="#" className="text-lg text-white hover:underline">Testimonials</a><span className="hidden md:inline"> |</span></li>
           <li><a href="#" className="text-lg text-white hover:underline">Contact</a></li>
         </ul>
       </div>
       <div>
         <h4 className="text-2xl font-semibold mb-4">Follow us</h4>
         <ul className="flex space-x-2">
-          <li><SocialIcon url="https://twitter.com"/></li>
-          <li><SocialIcon url="https://linkedin.com"/></li>
-          <li><SocialIcon url="https://facebook.com"/></li>
-          <li><SocialIcon url="https://instagram.com"/></li>
+          <li><SocialIcon style={{ height: 35, width: 35}} url="https://twitter.com" target='_blank'/></li>
+          <li><SocialIcon style={{ height: 35, width: 35 }} url="https://linkedin.com"/></li>
+          <li><SocialIcon style={{ height: 35, width: 35 }} url="https://facebook.com"/></li>
+          <li><SocialIcon style={{ height: 35, width: 35 }} url="https://instagram.com"/></li>
         </ul>
       </div>
     </div>
